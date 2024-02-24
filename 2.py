@@ -3,7 +3,7 @@ from time import perf_counter
 import multiprocessing
 
 # C-extension loading
-lib = CDLL("E:\\Tim\\programming\\Python projects\\math-and-math-modelling\\.venv\\ht.dll")
+lib = CDLL("...\\.venv\\ht.dll")
 # note: be careful with loading "ht.dll" - specify the correct path in your system
 
 
